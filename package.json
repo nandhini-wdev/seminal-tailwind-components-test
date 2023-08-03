@@ -1,0 +1,38 @@
+{
+  "name": "seminal-tailwind-components-test",
+  "version": "0.0.6",
+  "description": "Seminal tailwind components library",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "Seminal Ltd.",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@types/react": "^17.0.34",
+    "autoprefixer": "^10.4.14",
+    "classnames": "^2.3.2",
+    "postcss": "^8.4.27",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-select": "^5.7.4",
+    "rollup": "^2.79.1",
+    "rollup-plugin-dts": "^4.0.1",
+    "rollup-plugin-postcss": "^4.0.1",
+    "tailwindcss": "^3.3.3",
+    "tslib": "^2.6.1",
+    "typescript": "^4.9.5"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandhini-wdev/seminal-tailwind-components-test.git"
+  }
+}

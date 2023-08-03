@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Moderat-Bold";
+    src: url("./fonts/Moderat-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: "Moderat-Light";
+    src: url("./fonts/Moderat-Light.ttf");
+  }
+  
+  @font-face {
+    font-family: "Moderat-Medium";
+    src: url("./fonts/Moderat-Medium.ttf");
+  }
+  
+  @font-face {
+    font-family: "Moderat-Regular";
+    src: url("./fonts/Moderat-Regular.ttf");
+  }
+  
+  
