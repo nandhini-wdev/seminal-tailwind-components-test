@@ -19,4 +19,8 @@
     "emitDeclarationOnly": true,
   },
   "include": ["src/**/*", "rollup.config.js"],
+  "exclude": [
+    "src/**/*.test.tsx",
+    "src/**/*.stories.tsx"
+  ]
 }

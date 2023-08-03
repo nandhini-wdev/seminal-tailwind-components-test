@@ -1,26 +1,44 @@
 {
   "name": "seminal-tailwind-components-test",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "Seminal tailwind components library",
   "scripts": {
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "author": "Seminal Ltd.",
   "license": "ISC",
   "devDependencies": {
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-react": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.3",
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.0.6",
     "@rollup/plugin-typescript": "^8.3.0",
+    "@storybook/addon-essentials": "^7.2.0",
+    "@storybook/addon-interactions": "^7.2.0",
+    "@storybook/addon-links": "^7.2.0",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/blocks": "^7.2.0",
+    "@storybook/react": "^7.2.0",
+    "@storybook/react-webpack5": "^7.2.0",
+    "@storybook/testing-library": "^0.2.0",
     "@types/react": "^17.0.34",
     "autoprefixer": "^10.4.14",
     "classnames": "^2.3.2",
     "postcss": "^8.4.27",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-select": "^5.7.4",
     "rollup": "^2.79.1",
     "rollup-plugin-dts": "^4.0.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "storybook": "^7.2.0",
     "tailwindcss": "^3.3.3",
     "tslib": "^2.6.1",
     "typescript": "^4.9.5"
@@ -34,5 +52,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nandhini-wdev/seminal-tailwind-components-test.git"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-select": "^5.7.4"
   }
 }
